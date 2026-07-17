@@ -1,26 +1,32 @@
-# Dataset
-data/
-combined-train/
-train-faces/
-
-# Models
-checkpoints/
-checkpoints_combined_resnet18/
-checkpoints_train_faces/
-*.pth
-*.pt
-
-# Kaggle submission files
-sample_submission.csv
-submission_resnet18.csv
-submission_train-faces_resnet18.csv
-
-# Dataset metadata
-train_relationships.csv
-
 # Python
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
 
 # VS Code
-.vscode/    
+.vscode/
+
+# Virtual Environment
+venv/
+.env
+
+# Dataset
+data/
+train-faces/
+combined-train/
+*.zip
+
+# Checkpoints
+checkpoints/
+checkpoints_train_faces/
+checkpoints_combined_resnet18/
+checkpoints_combined_resnet50/
+
+# Kaggle submissions
+sample_submission.csv
+submission*.csv
+
+# Dataset metadata
+train_relationships.csv
